@@ -1,10 +1,12 @@
 # USN Horizon
 
-Welcome to the USN Horizon organization on GitHub!
+## Steadily Ascending
 
-## About Us
+USN Horizon is an up-and-coming student organization based at the University of South-Eastern Norway's campus Kongsberg.
 
-USN Horizon is dedicated to innovation and collaboration in technology and education.
+We believe that no problem is unsolvable with the passion of motivated engineering students. By applying our academic knowledge and engineering skills, we challenge ourselves through rocket development.
+
+Our journey began in 2023 with the development of our first rocket, which launched successfully at EuRoC 2024. This achievement marks just the beginning, and we're excited to see what heights our team will reach in the future!
 
 ## Resources
 
