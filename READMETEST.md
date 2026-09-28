@@ -1,10 +1,10 @@
-<!-- USN Horizon — organisation profile.
+<!-- USN Horizon organisation profile.
      Lives at .github/profile/README.md.
      The .github repository must be public for this profile to appear. -->
 
 <!-- Search for "TODO" before committing. All TODOs are HTML comments and will not render. -->
 
-<!-- TODO: Upload light/dark logo variants to .github/profile/assets/, or remove this block. -->
+<!-- TODO: Upload horizon-logo-white.png and horizon-logo-dark.png to .github/profile/assets/ -->
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -32,22 +32,25 @@ USN Horizon started in 2023 with one question: **how hard can it be to build a r
 
 A year later, our first rocket flew at the European Rocketry Challenge in Portugal. Now we're building towards **EuRoC 2027**.
 
-We design and develop as much of the vehicle in-house as possible — from flight computers and ground systems to airframe, recovery and payload. Members work directly with real flight hardware and learn one of the hardest parts of rocketry early: making every subsystem work together as one vehicle.
+We design and build as much of the rocket ourselves as we can, from flight computers and ground systems to airframe, recovery and payload. Members work directly with real flight hardware and learn one of the hardest parts of rocketry early: making every subsystem work together as one vehicle.
 
 ## Current mission
 
 <!-- TODO: Add the EuRoC 2027 project codename once it is public. -->
 
-| | |
-| --- | --- |
-| **Target** | EuRoC 2027 · Portugal |
-| **Propulsion** | Commercial solid rocket motor |
-| **Flight computer** | In-house SRAD flight computer · STM32 + Zephyr RTOS |
-| **Recovery avionics** | SRAD flight computer with CATS Vega COTS redundancy |
-| **Telemetry** | EU868 downlink to an in-house ground station |
-| **Verification** | Hardware-in-the-loop flight simulation |
+Our next rocket is being built for EuRoC 2027 in Portugal. This is what each team is working on:
 
-<!-- TODO: Airframe / Recovery / Payload leads can add mission-specific information when locked. -->
+| Team | Working on |
+| --- | --- |
+| **Airframe** | Rocket airframe and internal structure |
+| **Propulsion** | Developing our own bipropellant engine, while EuRoC 2027 flies on a commercial solid motor |
+| **Recovery** | Recovery system and safe descent |
+| **Avionics** | Our own flight computer (STM32, Zephyr RTOS) and ground station, with a CATS Vega as backup and hardware-in-the-loop testing |
+| **Payload** | The cosmic radiation experiment from Ratatoskr, plus onboard cameras |
+| **Systems** | Requirements, interfaces, simulation and vehicle integration |
+| **Operations** | Outreach, recruitment, website and administration |
+
+<!-- TODO: Each lead should verify their row. Recovery row is a placeholder. -->
 
 ## Flight history
 
@@ -55,38 +58,26 @@ We design and develop as much of the vehicle in-house as possible — from fligh
 | --- | --- | --- | --- |
 | **2027** | *TBA* | In development | Targeting EuRoC 2027 |
 | **2026** | Ratatoskr | Not flown | Designed for a 6,700 m apogee |
-| **2024** | Not Rocket Science | Flown · EuRoC 2024 | 3.5 m student-built debut rocket |
+| **2024** | Not Rocket Science | Flown · EuRoC 2024 | Our first rocket, 3.5 m long |
 
-## Subsystems
+## Join the team
 
-| Team | Focus |
-| --- | --- |
-| **Airframe** | Structures, aerodynamics and manufacturing |
-| **Propulsion** | Motor selection, integration and testing |
-| **Recovery** | Recovery architecture, deployment systems and safe descent |
-| **Avionics** | Flight computers, telemetry, ground systems and PCB design |
-| **Payload** | Onboard experiments and mission payloads |
-| **Systems** | Requirements, interfaces, simulation and vehicle integration |
-| **Operations** | Outreach, recruitment, website and administration |
+**Students**  
+We recruit new members every semester across USN study programmes. Keep an eye on our socials for the next intake, or email us if you want to get involved.
 
-<!-- TODO: Each lead should verify their subsystem description. -->
+**Sponsors**  
+Funding, equipment, expertise and access to test facilities all get the rocket closer to the launch pad. If you want to support student rocketry in Norway, we'd love to hear from you.
 
-## Join the crew
+## Sponsors
 
-**Students** — we recruit new members every semester across USN study programmes. Watch our socials for the next intake, or get in touch if you want to contribute.
-
-**Companies and organisations** — funding, equipment, engineering expertise and access to test facilities all help move the vehicle closer to the launch pad. We'd be glad to hear from you.
-
-## Partners
-
-**Main partners**  
+**Main sponsors**  
 Kongsberg · University of South-Eastern Norway · Kongsberg Automotive
 
-**Partners**  
+**Supporting sponsors**  
 SiK · NITO · Gruva · Styrke · NCAB Group · k·tech · 4Test · Frøyatrøya
 
-<!-- TODO: Add the unidentified blue-circle/star partner once confirmed. -->
+<!-- TODO: Add the unidentified blue-circle/star sponsor once confirmed. -->
 
 ## Contact
 
-General enquiries, partnerships and press: [**post@usnhorizon.no**](mailto:post@usnhorizon.no)
+Want to join, sponsor us or just ask a question? Email **[post@usnhorizon.no](mailto:post@usnhorizon.no)**.
